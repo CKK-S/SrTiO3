@@ -1,0 +1,44 @@
+%YAML 1.2
+---
+
+siesta:
+  version: "4.1.5"
+  arch: "unknown"
+  compiler: "GNU Fortran (Ubuntu 9.3.0-17ubuntu1~20.04) 9.3.0"
+  fflags: "gfortran -O2 -fPIC -ftree-vectorize"
+  fppflags: "-DFC_HAVE_ABORT -DSIESTA__DIAG_2STAGE -DSIESTA__MRRR"
+  libs: "libsiestaLAPACK.a libsiestaBLAS.a"
+  build: "serial"
+  openmp: "no"
+  gemm3m: "no"
+  netcdf: "no"
+  netcdf4: "no"
+  netcdf4_mpi: "no"
+  metis: "no"
+  chess: "no"
+  elpa: "no"
+  flook: "no"
+  pexsi: "no"
+
+energies:
+  Ebs:          -0.64490541E+02
+  Eions:           0.34183738E+03
+  Ena:           0.29630367E+02
+  Ekin:           0.12847458E+03
+  Enl:          -0.43151799E+02
+  Eso:           0.00000000E+00
+  Edftu:           0.00000000E+00
+  DEna:          -0.39779916E+01
+  DUscf:           0.11576142E+01
+  DUext:           0.00000000E+00
+  Exc:          -0.47576811E+02
+  Ecorrec:           0.00000000E+00
+  Emadel:           0.00000000E+00
+  Emeta:           0.00000000E+00
+  Emolmec:           0.00000000E+00
+  Ekinion:           0.00000000E+00
+  Eharris:          -0.27728142E+03
+  Etot:          -0.27728142E+03
+  FreeEng:          -0.27728142E+03
+
+...
